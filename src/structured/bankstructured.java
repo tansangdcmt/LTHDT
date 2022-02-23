@@ -7,6 +7,13 @@ public class bankstructured {
     //bien toan cuc : global    
     static int sotk = 12345;
     static int sodu = 0; 
+    //nhan vien
+    static String emName; //ten nhan vien
+    static string salary; //luong
+
+    // nhan vien : Customer
+    static String cusName;
+    static String address;
      public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -32,6 +39,12 @@ public class bankstructured {
         System.out.println("thong tin tai khoan:");
         System.out.println("ten tai khoan:" + sotk);
         System.out.println("so du tai khoan:"+ sodu);
+    }
+    static void showEmployee(){
+        cusName = "";// khong on
+        sotk = 0; // rat nguy hiem
+        salary = 500;
+
     }
    
 } 
